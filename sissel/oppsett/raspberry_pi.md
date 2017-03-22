@@ -4,4 +4,5 @@ Det første som må gjøres er å formatere SD-kortet
 Bruk:SD Card Formatter  som er hentet fra https://www.sdcard.org/downloads/formatter_4/  </p>
 ### Legg inn Raspian:
 Gå til: https://www.raspberrypi.org/downloads/noobs/ </p>
-Last ned 
+Last ned NOOBS zip filen. Det tar en liten stund.  Pakk den ut i en mappe på PC'en din. </p>
+
