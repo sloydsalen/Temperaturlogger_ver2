@@ -1,6 +1,6 @@
 Jeg starter med en ny Raspberry Pi 3 og et tomt SD kort på 16 GB </p>
 Det første som må gjøres er å formatere SD-kortet.
-(vi må kjøpe inn SD-kort lerser til sløydsalen).
+(vi må kjøpe inn SD-kort leser til sløydsalen).
 
 ### Formater SD kortet:
 Bruk:SD Card Formatter  som er hentet fra https://www.sdcard.org/downloads/formatter_4/  </p>
@@ -64,6 +64,8 @@ Dette fungerte da jeg installerte Jupyter.
 ```
 $ jupyter notebook
 ```
+
+### Legge til Python biblioteker
 
 
 
