@@ -18,9 +18,7 @@ eller her: https://www.raspberrypi.org/help/videos/#noobs-setup
 Du har lagt inn Raspian. </p>
 Du må ha sudo rettigheter. </p>
 Vi starter med å oppgradere operativsystemet og legge inn python 2.7. Det som står etter $ er kommandoen som skal skrives inn. </p>
-
-<span style="background-color:green"> $ sudo apt-get update </span>
-
+ $ sudo apt-get update </p>
 Så legger vi inn Python 2.7, Python pip og Python Development. (hvorfor python 2.7? Det er det de bruker på INF kurset) </p>
 $ sudo apt-get -y install python2.7 python-pip python-dev </p>
 Dette kan ta litt tid..... </p>
