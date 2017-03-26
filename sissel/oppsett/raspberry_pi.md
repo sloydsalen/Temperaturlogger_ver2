@@ -21,18 +21,25 @@ Vi starter med å oppgradere operativsystemet og legge inn python 2.7. Det som s
 
 ```
 
- $ sudo apt-get update </p>
+ $ sudo apt-get update 
  ```
  
  
 Så legger vi inn Python 2.7, Python pip og Python Development. (hvorfor python 2.7? Det er det de bruker på INF kurset) </p>
-$ sudo apt-get -y install python2.7 python-pip python-dev </p>
+```
+$ sudo apt-get -y install python2.7 python-pip python-dev 
+```
 Dette kan ta litt tid..... </p>
-$ python --version </P>
-$ pip --version </p>
+```
+$ python --version 
+$ pip --version 
+```
+
 Disse to kommandoen skal vise deg hvilke versjoner du har fått installert. </p>
 Når dette er klart kan vi legg inn Ipython og Jupyter.  Vi legger inn Ipython først: </p>
-$ sudo apt-get -y install ipython ipython-notebook </p>
+```
+$ sudo apt-get -y install ipython ipython-notebook
+```
 
 
 
