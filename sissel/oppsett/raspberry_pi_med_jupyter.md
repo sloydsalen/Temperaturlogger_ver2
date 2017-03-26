@@ -70,5 +70,12 @@ $ jupyter notebook
 $ sudo apt-get -y install python-scipy 
 ```
 
+Du kan ta flere samtidig:
+```
+$sudo apt-get -y install python-matplotlib python-scipy \
+python-pandas python-sympy python-nose
+
+```
+
 
 
