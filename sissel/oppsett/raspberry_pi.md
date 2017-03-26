@@ -16,7 +16,7 @@ eller her: https://www.raspberrypi.org/help/videos/#noobs-setup
 
 ### Jupyter Notebook på Raspberry Pi
 Du har lagt inn Raspian. </p>
-Du må ha sudo rettigheter. </p>
+Du må ha sudo-rettigheter. </p>
 Vi starter med å oppgradere operativsystemet og legge inn python 2.7. Det som står etter $ er kommandoen som skal skrives inn. </p>
 
 ```
@@ -40,6 +40,31 @@ Når dette er klart kan vi legg inn Ipython og Jupyter.  Vi legger inn Ipython f
 ```
 $ sudo apt-get -y install ipython ipython-notebook
 ```
+Nå kan du legge inn Jupyter.
+
+```
+$ sudo -H pip install jupyter
+```
+
+Hvis du har for gammel pip versjon kan du få feilmeldinger.
+
+```
+$ sudo -H pip install --upgrade pip
+```
+
+Prøv på nytt med: 
+
+```
+$ sudo -H pip install jupyter
+```
+
+Dette fungerte da jeg installerte Jupyter.
+
+### Test om det virker:
+```
+$ jupyter notebook
+```
+
 
 
 
