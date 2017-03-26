@@ -66,7 +66,9 @@ $ jupyter notebook
 ```
 
 ### Legge til Python biblioteker
-
+```
+$ sudo apt-get -y install python-scipy 
+```
 
 
 
