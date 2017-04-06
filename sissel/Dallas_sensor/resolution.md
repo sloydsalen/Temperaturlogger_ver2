@@ -1,17 +1,19 @@
 ## Hvor raskt/ofte kan jeg måle med Dallas sensoren?
 Må finne databladet for DS18B20 : https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
 
-På side 5 står det:</p>
+På side 5 står det:
 
-The resolution of the temperature sensor is user-configurable to 9, 10, 11, or 12 bits,</p>
-corresponding to increments of 0.5°C, 0.25°C, 0.125°C, and 0.0625°C, respectively. </p>
+The resolution of the temperature sensor is user-configurable to 9, 10, 11, or 12 bits,
+corresponding to increments of 0.5°C, 0.25°C, 0.125°C, and 0.0625°C, respectively. 
 The default resolution at power-up is 12-bit.
 
 På side 3 er det en tabell som heter AC Electrical Characteristics
 
-<p align="center">
+<p> align="center">
   <img src="Dallas_res_fig1.png" width="650"/>
 </p>
+
+Ut fra tabellen ser jeg at hvis jeg bruker 9 bits oppløsning kan jeg i teorien lese 10 ganger i sekundet og få en oppløsning på 0,5 grader. </p>
 
 ## Hva betyr dette i praksis for meg?
 
