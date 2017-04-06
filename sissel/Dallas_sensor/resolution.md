@@ -38,6 +38,10 @@ til:
 
 OneWire  ds(2);    // Connect your 1-wire device to pin 2
 
-Kopier koden inn i Arduino IDE'en, last den opp og åpn opp serial monitor:
+Kopier koden inn i Arduino IDE'en, last den opp og når du åpner opp serial monitor har du svaret.
 
 svaret du får ut vil se omtrent slik ut: 0x28, 0xFF, 0x2B, 0x45, 0x4C, 0x04, 0x00, 0x10
+
+## Endre oppløsningen til sensoren
+
+Kopier med deg den adressen du fant i forrige 
