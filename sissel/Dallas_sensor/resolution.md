@@ -33,3 +33,5 @@ OneWire  ds(3);    // Connect your 1-wire device to pin 3
 til:
 
 OneWire  ds(2);    // Connect your 1-wire device to pin 2
+
+svaret du får ut vil se omtrent slik ut: 0x28, 0xFF, 0x2B, 0x45, 0x4C, 0x04, 0x00, 0x10
