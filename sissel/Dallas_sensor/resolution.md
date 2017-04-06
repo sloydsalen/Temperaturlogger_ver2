@@ -40,8 +40,10 @@ OneWire  ds(2);    // Connect your 1-wire device to pin 2
 
 Kopier koden inn i Arduino IDE'en, last den opp og når du åpner opp serial monitor har du svaret.
 
-svaret du får ut vil se omtrent slik ut: 0x28, 0xFF, 0x2B, 0x45, 0x4C, 0x04, 0x00, 0x10
+svaret jeg fikk så omtrent slik ut: 0x28, 0xFF, 0x2B, 0x45, 0x4C, 0x04, 0x00, 0x10
 
 ## Endre oppløsningen til sensoren
 
-Kopier med deg den adressen du fant i forrige 
+For å endre oppløsningen kan du bruke dette programmer: Temperaturlogger_ver2/sissel/Dallas_sensor/Dallas_sett_opplosning.ino
+
+Kopier det inn i Arduino Ide'n men husk at fær du laster det opp må du kopier med deg den adressen du fant i forrige punkt og bytte ut med dem som står i programmet her.  Last det opp og kjør.
