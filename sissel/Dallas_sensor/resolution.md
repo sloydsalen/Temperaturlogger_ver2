@@ -52,6 +52,6 @@ Dette programmet skriver den nye oppløsningen til EPROM. Det betyr at denne Dal
 
 ## Hvor raskt går det?
 
-Du trenger et lite test program for å sjekke hvor ofte du leser.
-Det kan se slik ut: 
+Jeg sjekker hvor ofte jeg leser med: Temperaturlogger_ver2/sissel/Dallas_sensor/Dallas_Arduino_Tlogg_ver01.ino 
 
+Det ble ca 9 ganger i sekundet. Det er noe annet som tar litt tid her.  Må sjekke videre ....... 
