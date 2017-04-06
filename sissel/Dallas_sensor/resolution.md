@@ -25,9 +25,10 @@ Hver Dallas sensor har sin egen private hardware adresse. Jeg må først finne d
 
 Jeg har valgt å bruke et program som jeg fant her: https://www.hacktronics.com/Tutorials/arduino-1-wire-address-finder.html
 
-Det eneste jeg har endret er:
-...
+Det eneste jeg har endret er nummer på pinnen som sensoren er koblet til på Arduinoen. For at det skal stemme med oppsettet som er på versjon_01 av Dallas_Tlogger (se figur under) har jeg endret:
 
-OneWire  ds(2);  // Connect your 1-wire device to pin 2
+OneWire  ds(3);    // Connect your 1-wire device to pin 3
 
-...
+til:
+
+OneWire  ds(2);    // Connect your 1-wire device to pin 2
