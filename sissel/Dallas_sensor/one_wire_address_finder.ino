@@ -3,10 +3,11 @@
 // the UART, in a format that is useful in Arduino sketches
 // Tutorial: 
 // http://www.hacktronics.com/Tutorials/arduino-1-wire-address-finder.html
+// endret til pinne 2 for å matche Dallas_Tlogg  6/3 2017 av Sissel
 
 #include <OneWire.h>
 
-OneWire  ds(3);  // Connect your 1-wire device to pin 3
+OneWire  ds(2);  // Connect your 1-wire device to pin 2
 
 void setup(void) {
   Serial.begin(9600);
