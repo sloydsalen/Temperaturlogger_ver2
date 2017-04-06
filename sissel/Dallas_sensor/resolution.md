@@ -26,12 +26,18 @@ Hver Dallas sensor har sin egen private hardware adresse. Jeg må først finne d
 
 Jeg har valgt å bruke et program som jeg fant her: https://www.hacktronics.com/Tutorials/arduino-1-wire-address-finder.html
 
-Det eneste jeg har endret er nummer på pinnen som sensoren er koblet til på Arduinoen. For at det skal stemme med oppsettet som er på versjon_01 av Dallas_Tlogger (se figur under) har jeg endret:
+Jeg har lastet det opp hit: Temperaturlogger_ver2/sissel/Dallas_sensor/one_wire_address_finder.ino.
+
+Det eneste jeg har endret er nummer på pinnen som sensoren er koblet til på Arduinoen.
+
+For at det skal stemme med oppsettet som er på versjon_01 av Dallas_Tlogger (se figur under) har jeg endret:
 
 OneWire  ds(3);    // Connect your 1-wire device to pin 3
 
 til:
 
 OneWire  ds(2);    // Connect your 1-wire device to pin 2
+
+Kopier koden inn i Arduino IDE'en, last den opp og åpn opp serial monitor:
 
 svaret du får ut vil se omtrent slik ut: 0x28, 0xFF, 0x2B, 0x45, 0x4C, 0x04, 0x00, 0x10
