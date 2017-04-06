@@ -8,8 +8,10 @@ corresponding to increments of 0.5°C, 0.25°C, 0.125°C, and 0.0625°C, respect
 The default resolution at power-up is 12-bit.
 
 På side 3 er det en tabell som heter AC Electrical Characteristics
-![Image of Dallas_res_fig1]
-(https://github.com/sloydsalen/Temperaturlogger_ver2/tree/master/sissel/Dallas_sensor/Dallas_res_fig1.png)
+
+<p align="center">
+  <img src="Dallas_res_fig1.png" width="650"/>
+</p>
 
 ## Hva betyr dette i praksis for meg?
 
