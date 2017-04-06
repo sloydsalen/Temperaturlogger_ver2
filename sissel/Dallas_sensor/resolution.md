@@ -22,6 +22,7 @@ Hvis jeg vil måle oftere enn 1.5 ganger i sekundet må jeg endre oppløsningen 
 
 Hver Dallas sensor har sin egen private hardware adresse. Jeg må først finne denne for å kunne endre oppløsningen til sensoren
 
+### Finn hardware adresse:
 
 Jeg har valgt å bruke et program som jeg fant her: https://www.hacktronics.com/Tutorials/arduino-1-wire-address-finder.html
 
