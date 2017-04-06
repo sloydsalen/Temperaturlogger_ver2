@@ -9,7 +9,7 @@ The default resolution at power-up is 12-bit.
 
 På side 3 er det en tabell som heter AC Electrical Characteristics
 
-<p> align="center">
+<p align="center">
   <img src="Dallas_res_fig1.png" width="650"/>
 </p>
 
