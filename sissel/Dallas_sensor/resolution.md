@@ -14,9 +14,20 @@ På side 3 er det en tabell som heter AC Electrical Characteristics
 </p>
 
 Ut fra tabellen ser jeg at hvis jeg bruker 9 bits oppløsning kan jeg i teorien lese 10 ganger i sekundet og få en oppløsning på 0,5 grader. </p>
-
 ## Hva betyr dette i praksis for meg?
 
-Hvis jeg vil måle oftere enn 2 ganger i sekundet må jeg endre oppløsningen til temperatursensoren.
+Hvis jeg vil måle oftere enn 1.5 ganger i sekundet må jeg endre oppløsningen til temperatursensoren.
 
 ## Hvordan gjør jeg dette?
+
+Hver Dallas sensor har sin egen private hardware adresse. Jeg må først finne denne for å kunne endre oppløsningen til sensoren
+
+
+Jeg har valgt å bruke et program som jeg fant her: https://www.hacktronics.com/Tutorials/arduino-1-wire-address-finder.html
+
+Det eneste jeg har endret er:
+...
+
+OneWire  ds(2);  // Connect your 1-wire device to pin 2
+
+...
