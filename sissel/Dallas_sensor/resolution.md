@@ -46,9 +46,9 @@ svaret jeg fikk så omtrent slik ut: 0x28, 0xFF, 0x2B, 0x45, 0x4C, 0x04, 0x00, 0
 
 For å endre oppløsningen kan du bruke dette programmer: Temperaturlogger_ver2/sissel/Dallas_sensor/Dallas_sett_opplosning.ino
 
-Kopierte det inn i Arduino Ide'n. Før jeg lastet det opp til Arduinoen kopierte jeg med meg den adressen jeg fant i forrige punkt og bytte med dem som står i programmet her.  Lastet det opp og kjørte.
+Kopierte det inn i Arduino Ide'n. Før jeg lastet det opp til Arduinoen kopierte jeg med meg den adressen jeg fant i forrige punkt og bytte med den som står i programmet.  Lastet det opp og kjørte.
 
-Dette programmet skriver den nye oppløsningen til EPROM. Det betyr at denne Dallas sensoren har den oppløsningen du satte neste gang du skal bruke den.
+Dette programmet skriver den nye oppløsningen til EPROM. Det betyr at denne Dallas sensoren nå har fått den oppløsningen jeg satte som default ved power up.
 
 ## Hvor raskt går det?
 
